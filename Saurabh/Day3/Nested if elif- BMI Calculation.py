@@ -1,4 +1,4 @@
-#syntax
+#syntaxnested if
 
 # if condition:
 #     if another condition:
