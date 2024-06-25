@@ -1,7 +1,7 @@
 #BMI Calculator
 
-weight =int(input())
-height = float(input())
+weight =int(input("Please input your weight in kgs: "))
+height = float(input("Please input your height in inches: "))
 bmi = weight/(height)**2
 print(bmi)
 if bmi <18.5:
