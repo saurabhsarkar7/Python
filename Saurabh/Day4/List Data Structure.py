@@ -20,6 +20,19 @@ states_of_america.extend(["H","I","G"])
 print(states_of_america)
 
 #many more functions associate with List -->refer "docs.python.org"
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+print(fruits.count('apple'))
+print(fruits.count('grapes'))
+print(fruits.index('banana'))
+print(fruits.index('banana', 4)) # Find next banana starting at position 4
+fruits.reverse() #reverse teh content in List
+print(fruits)
+fruits.insert(1,"grapes")
+print(fruits)
+fruits.sort() #sorts items in list in order
+print(fruits)
+print(fruits.pop(3)) # prints the last item of the List if nothing is provided else print based on index
+
 
 #To calculate no.of items in the List.
 A= len(states_of_america)
@@ -34,3 +47,4 @@ print(List)
 print(List[0])
 print (List[1])
 print (List[1][1])
+
