@@ -1,6 +1,6 @@
 #check How many times the word TRUE and LOVE appears in both of your name and then score and rate.
-male_name = input()
-female_name =input()
+male_name = input("Please enter male partner name (Akash)")
+female_name =input("Please enter female partner name (Saurabh)")
 couple_name = male_name + female_name
 lower_case =couple_name.lower()
 t = lower_case.count("t")
@@ -22,5 +22,5 @@ if score < 10 or score >90:
 elif score >=40 and score <=50:
     print(f"Your score is {score},you are alright together")
 else:
-    print(f"Your score is {score}")
+    print(f"Your score is {score},find a new partner or jerk off in silence")
 
