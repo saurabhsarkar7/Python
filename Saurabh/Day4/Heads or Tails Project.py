@@ -4,3 +4,4 @@ if Heads_Tails == 1:
     print("Heads")
 else:
     print("Tails")
+

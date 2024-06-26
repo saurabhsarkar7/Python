@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <content url="jar://C:/SPARK/spark-3.5.1-bin-hadoop3/python/lib/py4j-0.10.9.7-src.zip!/" />
     <content url="jar://C:/SPARK/spark-3.5.1-bin-hadoop3/python/lib/pyspark.zip!/" />
-    <orderEntry type="jdk" jdkName="Python 3.11 (base)" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="XIRR-xirr" />
     <orderEntry type="module" module-name="PythonPractice" />

@@ -4,6 +4,8 @@ print("Hello World!")
 print("1. Add '3gm.' of salt")
 print('1. Add "3gm." of salt')
 print("1. Add \"3gm.\" of salt")
+#print raw strings - below example shows \n is not printing in new line as wea re using "r" option.
+print(r"C:\doc\navin")
 #Print in new lines using \n operator
 print("Helo World!\nHello World!\nBye World!")
 #Concatenation
