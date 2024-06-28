@@ -5,6 +5,7 @@ print(0o10)
 #hexadecimal number - represented by 0x/0X
 print(0X10)
 
+#basic Data Types
 print(len("12345")) # if we dont give quotes, it will be consider as an int and throw error
 #Sub-scripting
 print("Hello"[0])
