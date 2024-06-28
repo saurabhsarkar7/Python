@@ -37,4 +37,5 @@ pos1,pos2 = 0,2
 
 print(swapPositions(list,pos1,pos2))
 
+#there could be other ways as well
 
