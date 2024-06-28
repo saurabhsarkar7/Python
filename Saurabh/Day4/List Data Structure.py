@@ -48,3 +48,14 @@ print(List[0])
 print (List[1])
 print (List[1][1])
 
+
+
+list1 = [1,2,3,4,5]
+list1.reverse()
+print(list1)
+
+#Copying list
+import copy
+list = [1,2]
+list1 =copy.copy(list)
+print(list1)
