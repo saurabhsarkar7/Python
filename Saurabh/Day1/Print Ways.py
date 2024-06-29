@@ -24,3 +24,13 @@ A = len("Saurabh")
 print(A)
 #OR
 print(len(input()))
+#memomory of the dat storage/ ID
+a= 5
+b =5
+print(id(a))
+print (id(b))
+#different memory allocated
+a =6
+b=5
+print(id(a))
+print (id(b))
