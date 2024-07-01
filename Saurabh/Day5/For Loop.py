@@ -54,3 +54,28 @@ for x in range(6):
   print(x)
 else:
   print("Finally finished!") #Else part is not printed
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+#for loops cannot be empty, but if you for some reason have a for loop with no content,
+#put in the pass statement to avoid getting an error.
+for x in [0, 1, 2]:
+  pass
+
+#sum of digits between 1 and 100
+total = 0
+for number in range(1,101):
+  total = total + number
+print(total)
+
+#Sum of even digits between 1 and 100
+total_even = 0
+for x in range(1,101):
+  if x % 2 == 0:
+    total_even = total_even + x
+print(total_even)
