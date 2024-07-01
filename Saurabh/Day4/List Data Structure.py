@@ -6,8 +6,9 @@ print (states_of_america[-1])# offset -1 is the ending
 
 states_of_america[1] = "b"
 print(states_of_america)
-states_of_america[1] = "B"
+states_of_america[1:3] = ["B","BB","BBB"] # update values multiple, first argument{index), second argument(len of list)
 print(states_of_america)
+
 
 #how to add/append in the list
 states_of_america.append("G")
@@ -68,3 +69,15 @@ print(num[:]) #complete
 print(num[1:3])
 print(num[0:5:1])# third argument is step to skip before print
 print(num[0:5:2])# skip argument is 2
+
+#insert-- one item at a time
+num.insert(2,45)
+print(num)
+#append --one at a time
+num.append(55)
+print(num)
+#extend -multiple data at end
+num.extend([67,68,69,70])
+print(num)
+num1 =[1,2,3,3,3,4]
+print(num.clear()) #clears everything.
