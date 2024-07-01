@@ -59,3 +59,12 @@ import copy
 list = [1,2]
 list1 =copy.copy(list)
 print(list1)
+
+#index slicing
+num = [1,3,5,7,9]
+print(num[0:5]) #0 --> starting point, @end point --> length
+print(num[0:]) #complete
+print(num[:]) #complete
+print(num[1:3])
+print(num[0:5:1])# third argument is step to skip before print
+print(num[0:5:2])# skip argument is 2
