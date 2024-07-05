@@ -81,3 +81,9 @@ num.extend([67,68,69,70])
 print(num)
 num1 =[1,2,3,3,3,4]
 print(num.clear()) #clears everything.
+
+
+#Sub -list
+
+List1 =[7,88,91,[34,45,-1],90,12]
+print(List1[3][2])
