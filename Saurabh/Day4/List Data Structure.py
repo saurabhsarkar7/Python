@@ -87,3 +87,10 @@ print(num.clear()) #clears everything.
 
 List1 =[7,88,91,[34,45,-1],90,12]
 print(List1[3][2])
+#Slicing
+print(List1[3][:])
+print(List1[3][0:2])
+#Step
+print(List1[3][::2])
+
+List = [10,34,90,]
