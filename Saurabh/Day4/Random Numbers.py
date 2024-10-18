@@ -12,3 +12,11 @@ print (random_float)
 random_float =random.random() * 5
 print (random_float)
 
+#random choic with string!
+password = ""
+numbers= ['0','1','2','3','4','5','6','7','8','9']
+nr_numbers = int(input("How many numbers would you like in your password?\n"))
+for char in range(1,nr_numbers+1):
+    password += random.choice(numbers)
+
+print(password)
