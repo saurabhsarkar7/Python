@@ -8,5 +8,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="XIRR-xirr" />
     <orderEntry type="module" module-name="PythonPractice" />
+    <orderEntry type="module" module-name="AST" />
   </component>
 </module>

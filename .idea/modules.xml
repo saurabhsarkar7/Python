@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AST/.idea/AST.iml" filepath="$PROJECT_DIR$/../AST/.idea/AST.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python.iml" filepath="$PROJECT_DIR$/.idea/Python.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PythonPractice/.idea/PythonPractice.iml" filepath="$PROJECT_DIR$/../PythonPractice/.idea/PythonPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/../XIRR-xirr/.idea/XIRR-xirr.iml" filepath="$PROJECT_DIR$/../XIRR-xirr/.idea/XIRR-xirr.iml" />
